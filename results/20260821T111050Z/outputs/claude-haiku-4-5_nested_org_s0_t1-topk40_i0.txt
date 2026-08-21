@@ -1,0 +1,776 @@
+```json
+{
+  "name": "GlobalFlow Logistics Inc.",
+  "founded": 1987,
+  "departments": [
+    {
+      "name": "Operations",
+      "budget": 45000000,
+      "teams": [
+        {
+          "name": "Warehouse Management",
+          "members": [
+            {
+              "name": "James Chen",
+              "role": "Warehouse Director",
+              "years_experience": 22
+            },
+            {
+              "name": "Patricia Valdez",
+              "role": "Shift Supervisor",
+              "years_experience": 15
+            },
+            {
+              "name": "Marcus Thompson",
+              "role": "Inventory Specialist",
+              "years_experience": 8
+            },
+            {
+              "name": "Elena Rodriguez",
+              "role": "Forklift Operator",
+              "years_experience": 12
+            },
+            {
+              "name": "David Kim",
+              "role": "Quality Auditor",
+              "years_experience": 6
+            }
+          ]
+        },
+        {
+          "name": "Transportation",
+          "members": [
+            {
+              "name": "Robert Sullivan",
+              "role": "Fleet Manager",
+              "years_experience": 28
+            },
+            {
+              "name": "Susan Okafor",
+              "role": "Route Coordinator",
+              "years_experience": 11
+            },
+            {
+              "name": "Michael Torres",
+              "role": "Truck Driver",
+              "years_experience": 18
+            },
+            {
+              "name": "Jessica Brown",
+              "role": "Truck Driver",
+              "years_experience": 9
+            },
+            {
+              "name": "Ahmad Hassan",
+              "role": "Maintenance Technician",
+              "years_experience": 14
+            }
+          ]
+        },
+        {
+          "name": "Distribution Centers",
+          "members": [
+            {
+              "name": "Linda Martinez",
+              "role": "Center Manager",
+              "years_experience": 19
+            },
+            {
+              "name": "Kevin O'Brien",
+              "role": "Operations Lead",
+              "years_experience": 13
+            },
+            {
+              "name": "Yuki Tanaka",
+              "role": "Sorting Associate",
+              "years_experience": 5
+            },
+            {
+              "name": "Carlos Reyes",
+              "role": "Picking Associate",
+              "years_experience": 7
+            },
+            {
+              "name": "Priya Patel",
+              "role": "Packing Specialist",
+              "years_experience": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technology & Systems",
+      "budget": 28000000,
+      "teams": [
+        {
+          "name": "Software Development",
+          "members": [
+            {
+              "name": "Andrew Zhang",
+              "role": "Chief Technology Officer",
+              "years_experience": 25
+            },
+            {
+              "name": "Sofia Bergström",
+              "role": "Senior Developer",
+              "years_experience": 14
+            },
+            {
+              "name": "Rajesh Kumar",
+              "role": "Backend Developer",
+              "years_experience": 10
+            },
+            {
+              "name": "Emma Wilson",
+              "role": "Frontend Developer",
+              "years_experience": 7
+            },
+            {
+              "name": "Thomas Nielsen",
+              "role": "QA Engineer",
+              "years_experience": 6
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure & Support",
+          "members": [
+            {
+              "name": "Gregory Palmer",
+              "role": "Infrastructure Manager",
+              "years_experience": 18
+            },
+            {
+              "name": "Natalia Kowalski",
+              "role": "Systems Administrator",
+              "years_experience": 12
+            },
+            {
+              "name": "Jamal Washington",
+              "role": "Network Engineer",
+              "years_experience": 9
+            },
+            {
+              "name": "Liu Wei",
+              "role": "IT Support Specialist",
+              "years_experience": 5
+            },
+            {
+              "name": "Hannah Larsson",
+              "role": "Database Administrator",
+              "years_experience": 11
+            }
+          ]
+        },
+        {
+          "name": "Data Analytics",
+          "members": [
+            {
+              "name": "Dr. Vikram Desai",
+              "role": "Analytics Director",
+              "years_experience": 20
+            },
+            {
+              "name": "Michelle Garcia",
+              "role": "Data Scientist",
+              "years_experience": 8
+            },
+            {
+              "name": "Ching Liu",
+              "role": "Business Analyst",
+              "years_experience": 6
+            },
+            {
+              "name": "Olaf Eriksson",
+              "role": "Report Developer",
+              "years_experience": 7
+            },
+            {
+              "name": "Amara Okonkwo",
+              "role": "Data Analyst",
+              "years_experience": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Resources",
+      "budget": 12000000,
+      "teams": [
+        {
+          "name": "Recruitment & Talent Acquisition",
+          "members": [
+            {
+              "name": "Victoria Spencer",
+              "role": "HR Director",
+              "years_experience": 21
+            },
+            {
+              "name": "Samuel Johnson",
+              "role": "Recruitment Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Fiona MacDonald",
+              "role": "Recruiter",
+              "years_experience": 8
+            },
+            {
+              "name": "Diego Morales",
+              "role": "Recruiter",
+              "years_experience": 6
+            },
+            {
+              "name": "Anna Novak",
+              "role": "HR Coordinator",
+              "years_experience": 3
+            }
+          ]
+        },
+        {
+          "name": "Employee Relations",
+          "members": [
+            {
+              "name": "Catherine Adams",
+              "role": "Employee Relations Manager",
+              "years_experience": 15
+            },
+            {
+              "name": "Mohammed Al-Rashid",
+              "role": "Benefits Administrator",
+              "years_experience": 10
+            },
+            {
+              "name": "Leah Goldman",
+              "role": "HR Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Kenji Yamamoto",
+              "role": "Training Coordinator",
+              "years_experience": 5
+            },
+            {
+              "name": "Maria Santos",
+              "role": "Payroll Specialist",
+              "years_experience": 9
+            }
+          ]
+        },
+        {
+          "name": "Organizational Development",
+          "members": [
+            {
+              "name": "Dr. Robert Mitchell",
+              "role": "OD Manager",
+              "years_experience": 17
+            },
+            {
+              "name": "Lisa Chen",
+              "role": "Training Developer",
+              "years_experience": 11
+            },
+            {
+              "name": "Christopher Brooks",
+              "role": "Leadership Coach",
+              "years_experience": 13
+            },
+            {
+              "name": "Fatima Hassan",
+              "role": "Culture Specialist",
+              "years_experience": 6
+            },
+            {
+              "name": "Jacob Peterson",
+              "role": "L&D Specialist",
+              "years_experience": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance & Accounting",
+      "budget": 18000000,
+      "teams": [
+        {
+          "name": "Financial Planning",
+          "members": [
+            {
+              "name": "Patricia Fernandez",
+              "role": "Chief Financial Officer",
+              "years_experience": 30
+            },
+            {
+              "name": "Jonathan Blake",
+              "role": "Financial Controller",
+              "years_experience": 19
+            },
+            {
+              "name": "Sasha Volkov",
+              "role": "Budget Analyst",
+              "years_experience": 9
+            },
+            {
+              "name": "Megan O'Reilly",
+              "role": "FP&A Analyst",
+              "years_experience": 6
+            },
+            {
+              "name": "Hassan Ibrahim",
+              "role": "Financial Analyst",
+              "years_experience": 4
+            }
+          ]
+        },
+        {
+          "name": "Accounts & Bookkeeping",
+          "members": [
+            {
+              "name": "Dorothy Whitmore",
+              "role": "Accounting Manager",
+              "years_experience": 16
+            },
+            {
+              "name": "Carlos Diaz",
+              "role": "Senior Accountant",
+              "years_experience": 11
+            },
+            {
+              "name": "Sophia Russo",
+              "role": "Accounts Payable Specialist",
+              "years_experience": 8
+            },
+            {
+              "name": "Michael Lim",
+              "role": "Accounts Receivable Clerk",
+              "years_experience": 5
+            },
+            {
+              "name": "Rachel Green",
+              "role": "Bookkeeper",
+              "years_experience": 7
+            }
+          ]
+        },
+        {
+          "name": "Audit & Compliance",
+          "members": [
+            {
+              "name": "William Foster",
+              "role": "Compliance Director",
+              "years_experience": 22
+            },
+            {
+              "name": "Jessica Lee",
+              "role": "Internal Auditor",
+              "years_experience": 12
+            },
+            {
+              "name": "Bruno Castillo",
+              "role": "Compliance Officer",
+              "years_experience": 8
+            },
+            {
+              "name": "Karen Schmidt",
+              "role": "Risk Analyst",
+              "years_experience": 10
+            },
+            {
+              "name": "Ahmed Abdulrahman",
+              "role": "Audit Associate",
+              "years_experience": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sales & Business Development",
+      "budget": 22000000,
+      "teams": [
+        {
+          "name": "Account Management",
+          "members": [
+            {
+              "name": "Richard Henderson",
+              "role": "Sales Director",
+              "years_experience": 26
+            },
+            {
+              "name": "Olivia Martinez",
+              "role": "Account Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Steven Foster",
+              "role": "Account Manager",
+              "years_experience": 11
+            },
+            {
+              "name": "Rae Chen",
+              "role": "Account Executive",
+              "years_experience": 7
+            },
+            {
+              "name": "Paulo Silva",
+              "role": "Account Coordinator",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Business Development",
+          "members": [
+            {
+              "name": "Gregory Summers",
+              "role": "BD Manager",
+              "years_experience": 18
+            },
+            {
+              "name": "Natasha Volkov",
+              "role": "Business Development Rep",
+              "years_experience": 9
+            },
+            {
+              "name": "Kevin Hughes",
+              "role": "Sales Engineer",
+              "years_experience": 12
+            },
+            {
+              "name": "Lisa Wang",
+              "role": "Partnership Manager",
+              "years_experience": 8
+            },
+            {
+              "name": "Marcus Brown",
+              "role": "BD Analyst",
+              "years_experience": 4
+            }
+          ]
+        },
+        {
+          "name": "Sales Operations",
+          "members": [
+            {
+              "name": "Susan McCarthy",
+              "role": "Sales Ops Manager",
+              "years_experience": 13
+            },
+            {
+              "name": "Daniel Rodriguez",
+              "role": "Sales Analyst",
+              "years_experience": 8
+            },
+            {
+              "name": "Elena Vasquez",
+              "role": "CRM Administrator",
+              "years_experience": 6
+            },
+            {
+              "name": "Tommy Watson",
+              "role": "Forecasting Specialist",
+              "years_experience": 5
+            },
+            {
+              "name": "Priya Sharma",
+              "role": "Sales Coordinator",
+              "years_experience": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing & Communications",
+      "budget": 15000000,
+      "teams": [
+        {
+          "name": "Marketing Strategy",
+          "members": [
+            {
+              "name": "Margaret Thompson",
+              "role": "Chief Marketing Officer",
+              "years_experience": 24
+            },
+            {
+              "name": "Aaron Foster",
+              "role": "Marketing Manager",
+              "years_experience": 11
+            },
+            {
+              "name": "Jasmine Patel",
+              "role": "Brand Manager",
+              "years_experience": 8
+            },
+            {
+              "name": "Klaus Mueller",
+              "role": "Product Marketer",
+              "years_experience": 9
+            },
+            {
+              "name": "Isabella Romano",
+              "role": "Marketing Analyst",
+              "years_experience": 4
+            }
+          ]
+        },
+        {
+          "name": "Digital Marketing",
+          "members": [
+            {
+              "name": "Ethan Price",
+              "role": "Digital Marketing Lead",
+              "years_experience": 10
+            },
+            {
+              "name": "Sophia Andreou",
+              "role": "SEO Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "David Lynch",
+              "role": "Social Media Manager",
+              "years_experience": 6
+            },
+            {
+              "name": "Yuki Nakamura",
+              "role": "Content Manager",
+              "years_experience": 5
+            },
+            {
+              "name": "Nina Kozlov",
+              "role": "Email Marketing Specialist",
+              "years_experience": 3
+            }
+          ]
+        },
+        {
+          "name": "Communications",
+          "members": [
+            {
+              "name": "Jennifer Walsh",
+              "role": "Communications Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Michael O'Donnell",
+              "role": "PR Manager",
+              "years_experience": 12
+            },
+            {
+              "name": "Lucia Barbosa",
+              "role": "Corporate Communications Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Richard Lawson",
+              "role": "Content Writer",
+              "years_experience": 5
+            },
+            {
+              "name": "Sophie Dupont",
+              "role": "Communications Coordinator",
+              "years_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Customer Service & Support",
+      "budget": 16000000,
+      "teams": [
+        {
+          "name": "Customer Support",
+          "members": [
+            {
+              "name": "Angela Morrison",
+              "role": "Support Director",
+              "years_experience": 19
+            },
+            {
+              "name": "Christopher Yang",
+              "role": "Support Manager",
+              "years_experience": 11
+            },
+            {
+              "name": "Rebecca Hall",
+              "role": "Support Supervisor",
+              "years_experience": 8
+            },
+            {
+              "name": "Marcus Green",
+              "role": "Customer Support Specialist",
+              "years_experience": 6
+            },
+            {
+              "name": "Nina Patel",
+              "role": "Customer Support Representative",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Quality Assurance",
+          "members": [
+            {
+              "name": "Thomas Bradley",
+              "role": "QA Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Victoria Larson",
+              "role": "Quality Analyst",
+              "years_experience": 9
+            },
+            {
+              "name": "Samuel Okonkwo",
+              "role": "QA Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Amanda Foster",
+              "role": "Call Monitor",
+              "years_experience": 5
+            },
+            {
+              "name": "Ivan Popov",
+              "role": "QA Analyst",
+              "years_experience": 3
+            }
+          ]
+        },
+        {
+          "name": "Customer Experience",
+          "members": [
+            {
+              "name": "Donna Russell",
+              "role": "CX Manager",
+              "years_experience": 12
+            },
+            {
+              "name": "Alejandro Rodriguez",
+              "role": "Experience Designer",
+              "years_experience": 8
+            },
+            {
+              "name": "Claire Murphy",
+              "role": "Customer Insights Analyst",
+              "years_experience": 6
+            },
+            {
+              "name": "Hiroshi Tanaka",
+              "role": "Feedback Specialist",
+              "years_experience": 4
+            },
+            {
+              "name": "Bethany Cole",
+              "role": "CX Coordinator",
+              "years_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legal & Risk Management",
+      "budget": 9000000,
+      "teams": [
+        {
+          "name": "Legal Affairs",
+          "members": [
+            {
+              "name": "David Rothstein",
+              "role": "General Counsel",
+              "years_experience": 28
+            },
+            {
+              "name": "Margaret Chen",
+              "role": "Senior Counsel",
+              "years_experience": 16
+            },
+            {
+              "name": "James Murphy",
+              "role": "Contract Attorney",
+              "years_experience": 10
+            },
+            {
+              "name": "Sofia Hernandez",
+              "role": "Legal Associate",
+              "years_experience": 5
+            },
+            {
+              "name": "Robert Lawson",
+              "role": "Legal Paralegal",
+              "years_experience": 7
+            }
+          ]
+        },
+        {
+          "name": "Risk Management",
+          "members": [
+            {
+              "name": "Patricia Blackwell",
+              "role": "Risk Director",
+              "years_experience": 20
+            },
+            {
+              "name": "Anthony Moreno",
+              "role": "Risk Manager",
+              "years_experience": 13
+            },
+            {
+              "name": "Diane Foster",
+              "role": "Insurance Specialist",
+              "years_experience": 11
+            },
+            {
+              "name": "Raymond Kim",
+              "role": "Loss Prevention Coordinator",
+              "years_experience": 6
+            },
+            {
+              "name": "Melissa Ortiz",
+              "role": "Risk Analyst",
+              "years_experience": 4
+            }
+          ]
+        },
+        {
+          "name": "Safety & Compliance",
+          "members": [
+            {
+              "name": "George Patterson",
+              "role": "Safety Director",
+              "years_experience": 22
+            },
+            {
+              "name": "Linda Scott",
+              "role": "Safety Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Carlos Fuentes",
+              "role": "Safety Officer",
+              "years_experience": 9
+            },
+            {
+              "name": "Rebecca Anderson",
+              "role": "Compliance Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Joshua Turner",
+              "role": "Health & Safety Coordinator",
+              "years_experience": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```

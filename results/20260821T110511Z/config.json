@@ -1,0 +1,117 @@
+{
+  "output_dir": "results",
+  "iterations": 25,
+  "concurrency": 4,
+  "max_tokens": 32000,
+  "stall_timeout": 90,
+  "base_system": "You are a data generation service. You respond with valid JSON only. Do not wrap the JSON in markdown code fences. Do not include any explanation, preamble, or commentary. The JSON must contain realistic, internally consistent data.",
+  "models": [
+    {"id": "claude-haiku-4-5", "supports_sampling": true},
+    {"id": "claude-sonnet-4-6", "supports_sampling": true},
+    {"id": "claude-opus-5", "supports_sampling": false}
+  ],
+  "shot_modes": [0, 1, 2],
+  "sampling": [
+    {"label": "greedy", "temperature": 0.0},
+    {"label": "t1", "temperature": 1.0},
+    {"label": "t1-topk40", "temperature": 1.0, "top_k": 40}
+  ],
+  "tasks": [
+    {
+      "name": "flat_inventory",
+      "system": "When asked for an inventory, respond with a JSON array of product objects. Each product has exactly these fields: id (string, format 'SKU-' followed by 4 digits), name (string), category (string), price (number, positive), in_stock (boolean). No other fields.",
+      "user_prompt": "Generate a product inventory for a large hardware store. Output exactly 300 products.",
+      "examples": [
+        {
+          "user": "Generate a product inventory for a small bakery. Output exactly 2 products.",
+          "assistant": "[{\"id\":\"SKU-1001\",\"name\":\"Sourdough Loaf\",\"category\":\"Bread\",\"price\":6.5,\"in_stock\":true},{\"id\":\"SKU-1002\",\"name\":\"Almond Croissant\",\"category\":\"Pastry\",\"price\":4.25,\"in_stock\":false}]"
+        },
+        {
+          "user": "Generate a product inventory for a pet shop. Output exactly 2 products.",
+          "assistant": "[{\"id\":\"SKU-2001\",\"name\":\"Ceramic Dog Bowl\",\"category\":\"Feeding\",\"price\":12.99,\"in_stock\":true},{\"id\":\"SKU-2002\",\"name\":\"Catnip Mouse Toy\",\"category\":\"Toys\",\"price\":3.49,\"in_stock\":true}]"
+        }
+      ],
+      "schema": {
+        "type": "array",
+        "minItems": 300,
+        "maxItems": 300,
+        "items": {
+          "type": "object",
+          "required": ["id", "name", "category", "price", "in_stock"],
+          "additionalProperties": false,
+          "properties": {
+            "id": {"type": "string", "pattern": "^SKU-[0-9]{4}$"},
+            "name": {"type": "string", "minLength": 1},
+            "category": {"type": "string", "minLength": 1},
+            "price": {"type": "number", "exclusiveMinimum": 0},
+            "in_stock": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    {
+      "name": "nested_org",
+      "system": "When asked for a company profile, respond with a JSON object: {name (string), founded (integer year), departments (array)}. Each department: {name (string), budget (number, positive), teams (array)}. Each team: {name (string), members (array)}. Each member: {name (string), role (string), years_experience (integer, 0-60)}. No other fields at any level.",
+      "user_prompt": "Generate a company profile for a fictional large logistics company. Include exactly 8 departments, each with at least 3 teams, each team with at least 5 members.",
+      "examples": [
+        {
+          "user": "Generate a company profile for a fictional tiny design studio. Include exactly 1 department with 1 team of 2 members.",
+          "assistant": "{\"name\":\"Northlight Studio\",\"founded\":2016,\"departments\":[{\"name\":\"Design\",\"budget\":250000,\"teams\":[{\"name\":\"Brand\",\"members\":[{\"name\":\"Maya Chen\",\"role\":\"Art Director\",\"years_experience\":11},{\"name\":\"Tom Ellis\",\"role\":\"Designer\",\"years_experience\":4}]}]}]}"
+        },
+        {
+          "user": "Generate a company profile for a fictional small cafe chain. Include exactly 1 department with 1 team of 2 members.",
+          "assistant": "{\"name\":\"Fern & Filter\",\"founded\":2011,\"departments\":[{\"name\":\"Operations\",\"budget\":480000,\"teams\":[{\"name\":\"Store Ops\",\"members\":[{\"name\":\"Ana Reyes\",\"role\":\"Regional Manager\",\"years_experience\":14},{\"name\":\"Liam Ford\",\"role\":\"Shift Lead\",\"years_experience\":3}]}]}]}"
+        }
+      ],
+      "schema": {
+        "type": "object",
+        "required": ["name", "founded", "departments"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "founded": {"type": "integer", "minimum": 1800, "maximum": 2026},
+          "departments": {
+            "type": "array",
+            "minItems": 8,
+            "maxItems": 8,
+            "items": {
+              "type": "object",
+              "required": ["name", "budget", "teams"],
+              "additionalProperties": false,
+              "properties": {
+                "name": {"type": "string", "minLength": 1},
+                "budget": {"type": "number", "exclusiveMinimum": 0},
+                "teams": {
+                  "type": "array",
+                  "minItems": 3,
+                  "items": {
+                    "type": "object",
+                    "required": ["name", "members"],
+                    "additionalProperties": false,
+                    "properties": {
+                      "name": {"type": "string", "minLength": 1},
+                      "members": {
+                        "type": "array",
+                        "minItems": 5,
+                        "items": {
+                          "type": "object",
+                          "required": ["name", "role", "years_experience"],
+                          "additionalProperties": false,
+                          "properties": {
+                            "name": {"type": "string", "minLength": 1},
+                            "role": {"type": "string", "minLength": 1},
+                            "years_experience": {"type": "integer", "minimum": 0, "maximum": 60}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

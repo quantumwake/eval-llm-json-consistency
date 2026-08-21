@@ -1,0 +1,776 @@
+```json
+{
+  "name": "GlobalFlow Logistics",
+  "founded": 1987,
+  "departments": [
+    {
+      "name": "Operations",
+      "budget": 2500000,
+      "teams": [
+        {
+          "name": "Route Planning",
+          "members": [
+            {
+              "name": "Michael Chen",
+              "role": "Lead Coordinator",
+              "years_experience": 15
+            },
+            {
+              "name": "Sarah Williams",
+              "role": "Route Analyst",
+              "years_experience": 8
+            },
+            {
+              "name": "James Murphy",
+              "role": "Route Analyst",
+              "years_experience": 6
+            },
+            {
+              "name": "Emma Rodriguez",
+              "role": "Route Optimization Specialist",
+              "years_experience": 12
+            },
+            {
+              "name": "David Park",
+              "role": "Coordinator",
+              "years_experience": 3
+            }
+          ]
+        },
+        {
+          "name": "Fleet Management",
+          "members": [
+            {
+              "name": "Robert Thompson",
+              "role": "Fleet Director",
+              "years_experience": 22
+            },
+            {
+              "name": "Lisa Anderson",
+              "role": "Vehicle Maintenance Supervisor",
+              "years_experience": 14
+            },
+            {
+              "name": "Marcus Johnson",
+              "role": "Fleet Analyst",
+              "years_experience": 9
+            },
+            {
+              "name": "Jennifer Lee",
+              "role": "Vehicle Acquisition Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Thomas Green",
+              "role": "Maintenance Technician",
+              "years_experience": 5
+            }
+          ]
+        },
+        {
+          "name": "Warehouse Operations",
+          "members": [
+            {
+              "name": "Patricia Davis",
+              "role": "Warehouse Manager",
+              "years_experience": 18
+            },
+            {
+              "name": "Christopher Brown",
+              "role": "Inventory Specialist",
+              "years_experience": 11
+            },
+            {
+              "name": "Angela Martinez",
+              "role": "Shift Supervisor",
+              "years_experience": 9
+            },
+            {
+              "name": "Kevin White",
+              "role": "Operations Clerk",
+              "years_experience": 4
+            },
+            {
+              "name": "Nicole Taylor",
+              "role": "Quality Control Inspector",
+              "years_experience": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Resources",
+      "budget": 800000,
+      "teams": [
+        {
+          "name": "Recruitment and Staffing",
+          "members": [
+            {
+              "name": "Victoria Harris",
+              "role": "HR Director",
+              "years_experience": 19
+            },
+            {
+              "name": "Andrew King",
+              "role": "Senior Recruiter",
+              "years_experience": 12
+            },
+            {
+              "name": "Rachel Scott",
+              "role": "Recruiter",
+              "years_experience": 7
+            },
+            {
+              "name": "Brandon Green",
+              "role": "Talent Acquisition Specialist",
+              "years_experience": 5
+            },
+            {
+              "name": "Stephanie Bell",
+              "role": "HR Coordinator",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Employee Relations",
+          "members": [
+            {
+              "name": "Douglas Lewis",
+              "role": "Employee Relations Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Megan Clark",
+              "role": "Training Specialist",
+              "years_experience": 10
+            },
+            {
+              "name": "Steven Hall",
+              "role": "Performance Coach",
+              "years_experience": 8
+            },
+            {
+              "name": "Lauren Wood",
+              "role": "Benefits Administrator",
+              "years_experience": 6
+            },
+            {
+              "name": "Jonathan Martinez",
+              "role": "HR Assistant",
+              "years_experience": 1
+            }
+          ]
+        },
+        {
+          "name": "Compliance and Safety",
+          "members": [
+            {
+              "name": "Margaret Roberts",
+              "role": "Safety Manager",
+              "years_experience": 16
+            },
+            {
+              "name": "Eric Walker",
+              "role": "Compliance Officer",
+              "years_experience": 11
+            },
+            {
+              "name": "Deborah Young",
+              "role": "Safety Inspector",
+              "years_experience": 9
+            },
+            {
+              "name": "Anthony Allen",
+              "role": "Training Coordinator",
+              "years_experience": 5
+            },
+            {
+              "name": "Samantha Hernandez",
+              "role": "Safety Specialist",
+              "years_experience": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance and Accounting",
+      "budget": 1200000,
+      "teams": [
+        {
+          "name": "General Accounting",
+          "members": [
+            {
+              "name": "Charles Miller",
+              "role": "Chief Financial Officer",
+              "years_experience": 25
+            },
+            {
+              "name": "Susan Davis",
+              "role": "Accounting Manager",
+              "years_experience": 13
+            },
+            {
+              "name": "Timothy Rodriguez",
+              "role": "Senior Accountant",
+              "years_experience": 10
+            },
+            {
+              "name": "Margaret Thompson",
+              "role": "Accountant",
+              "years_experience": 6
+            },
+            {
+              "name": "Paul Garcia",
+              "role": "Accounting Clerk",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Financial Planning",
+          "members": [
+            {
+              "name": "Jessica Anderson",
+              "role": "Finance Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Matthew Jackson",
+              "role": "Financial Analyst",
+              "years_experience": 8
+            },
+            {
+              "name": "Carol Martinez",
+              "role": "Budget Analyst",
+              "years_experience": 9
+            },
+            {
+              "name": "Donald Wilson",
+              "role": "Forecasting Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Sandra Moore",
+              "role": "Data Analyst",
+              "years_experience": 4
+            }
+          ]
+        },
+        {
+          "name": "Payroll and Benefits",
+          "members": [
+            {
+              "name": "Karen Martin",
+              "role": "Payroll Manager",
+              "years_experience": 15
+            },
+            {
+              "name": "George Taylor",
+              "role": "Payroll Specialist",
+              "years_experience": 11
+            },
+            {
+              "name": "Helen Anderson",
+              "role": "Payroll Processor",
+              "years_experience": 8
+            },
+            {
+              "name": "Kenneth Thomas",
+              "role": "Benefits Coordinator",
+              "years_experience": 6
+            },
+            {
+              "name": "Ruth Jackson",
+              "role": "Payroll Clerk",
+              "years_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Information Technology",
+      "budget": 1800000,
+      "teams": [
+        {
+          "name": "Infrastructure and Support",
+          "members": [
+            {
+              "name": "Raymond White",
+              "role": "IT Director",
+              "years_experience": 18
+            },
+            {
+              "name": "Jennifer Davis",
+              "role": "Infrastructure Manager",
+              "years_experience": 13
+            },
+            {
+              "name": "Joseph Martinez",
+              "role": "Senior Systems Administrator",
+              "years_experience": 11
+            },
+            {
+              "name": "Michelle Clark",
+              "role": "Network Administrator",
+              "years_experience": 8
+            },
+            {
+              "name": "William Brown",
+              "role": "IT Support Technician",
+              "years_experience": 3
+            }
+          ]
+        },
+        {
+          "name": "Software Development",
+          "members": [
+            {
+              "name": "Alexander Garcia",
+              "role": "Software Development Manager",
+              "years_experience": 15
+            },
+            {
+              "name": "Elizabeth Rodriguez",
+              "role": "Senior Developer",
+              "years_experience": 12
+            },
+            {
+              "name": "Daniel Lee",
+              "role": "Full Stack Developer",
+              "years_experience": 9
+            },
+            {
+              "name": "Lisa Anderson",
+              "role": "Backend Developer",
+              "years_experience": 7
+            },
+            {
+              "name": "Michael Chen",
+              "role": "Junior Developer",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity and Data",
+          "members": [
+            {
+              "name": "David Thompson",
+              "role": "Security Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Nancy Wilson",
+              "role": "Security Analyst",
+              "years_experience": 10
+            },
+            {
+              "name": "Richard Moore",
+              "role": "Database Administrator",
+              "years_experience": 11
+            },
+            {
+              "name": "Patricia Harris",
+              "role": "Data Scientist",
+              "years_experience": 8
+            },
+            {
+              "name": "Steven Taylor",
+              "role": "Security Technician",
+              "years_experience": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Customer Service and Sales",
+      "budget": 1600000,
+      "teams": [
+        {
+          "name": "Customer Support",
+          "members": [
+            {
+              "name": "Barbara Jackson",
+              "role": "Customer Service Manager",
+              "years_experience": 12
+            },
+            {
+              "name": "Ryan Martinez",
+              "role": "Senior Support Specialist",
+              "years_experience": 9
+            },
+            {
+              "name": "Amanda Johnson",
+              "role": "Support Representative",
+              "years_experience": 6
+            },
+            {
+              "name": "Kevin White",
+              "role": "Support Representative",
+              "years_experience": 5
+            },
+            {
+              "name": "Lauren Robinson",
+              "role": "Support Coordinator",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Sales Team",
+          "members": [
+            {
+              "name": "Gregory Davis",
+              "role": "Sales Director",
+              "years_experience": 16
+            },
+            {
+              "name": "Victoria Brown",
+              "role": "Senior Account Manager",
+              "years_experience": 13
+            },
+            {
+              "name": "Charles Lee",
+              "role": "Account Manager",
+              "years_experience": 8
+            },
+            {
+              "name": "Dorothy Garcia",
+              "role": "Sales Representative",
+              "years_experience": 5
+            },
+            {
+              "name": "Mark Anderson",
+              "role": "Sales Coordinator",
+              "years_experience": 1
+            }
+          ]
+        },
+        {
+          "name": "Business Development",
+          "members": [
+            {
+              "name": "James Wilson",
+              "role": "Business Development Manager",
+              "years_experience": 11
+            },
+            {
+              "name": "Christine Moore",
+              "role": "Partnership Manager",
+              "years_experience": 9
+            },
+            {
+              "name": "Thomas Martinez",
+              "role": "Strategic Account Executive",
+              "years_experience": 8
+            },
+            {
+              "name": "Mary Taylor",
+              "role": "Market Research Analyst",
+              "years_experience": 6
+            },
+            {
+              "name": "Joseph Clark",
+              "role": "Business Analyst",
+              "years_experience": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Procurement and Supply Chain",
+      "budget": 950000,
+      "teams": [
+        {
+          "name": "Procurement",
+          "members": [
+            {
+              "name": "Edward Robinson",
+              "role": "Procurement Manager",
+              "years_experience": 13
+            },
+            {
+              "name": "Carol White",
+              "role": "Senior Procurement Specialist",
+              "years_experience": 11
+            },
+            {
+              "name": "Patrick Brown",
+              "role": "Procurement Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Elizabeth Green",
+              "role": "Vendor Manager",
+              "years_experience": 6
+            },
+            {
+              "name": "George Young",
+              "role": "Procurement Clerk",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Supply Chain Planning",
+          "members": [
+            {
+              "name": "Margaret Thompson",
+              "role": "Supply Chain Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Ronald Davis",
+              "role": "Supply Chain Analyst",
+              "years_experience": 10
+            },
+            {
+              "name": "Susan Miller",
+              "role": "Demand Planner",
+              "years_experience": 8
+            },
+            {
+              "name": "Frank Johnson",
+              "role": "Planning Specialist",
+              "years_experience": 6
+            },
+            {
+              "name": "Emily Garcia",
+              "role": "Junior Analyst",
+              "years_experience": 1
+            }
+          ]
+        },
+        {
+          "name": "Logistics Coordination",
+          "members": [
+            {
+              "name": "Harold Martinez",
+              "role": "Logistics Coordinator Manager",
+              "years_experience": 12
+            },
+            {
+              "name": "Diane Anderson",
+              "role": "Logistics Coordinator",
+              "years_experience": 9
+            },
+            {
+              "name": "Peter Lee",
+              "role": "Logistics Coordinator",
+              "years_experience": 7
+            },
+            {
+              "name": "Joyce Rodriguez",
+              "role": "Documentation Specialist",
+              "years_experience": 5
+            },
+            {
+              "name": "Lawrence Clark",
+              "role": "Coordinator Assistant",
+              "years_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing and Communications",
+      "budget": 700000,
+      "teams": [
+        {
+          "name": "Marketing Strategy",
+          "members": [
+            {
+              "name": "Amanda White",
+              "role": "Marketing Director",
+              "years_experience": 14
+            },
+            {
+              "name": "Victor Martinez",
+              "role": "Marketing Manager",
+              "years_experience": 11
+            },
+            {
+              "name": "Kathleen Brown",
+              "role": "Strategic Marketing Specialist",
+              "years_experience": 8
+            },
+            {
+              "name": "Nicholas Davis",
+              "role": "Marketing Analyst",
+              "years_experience": 6
+            },
+            {
+              "name": "Brenda Lee",
+              "role": "Marketing Coordinator",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Digital Marketing",
+          "members": [
+            {
+              "name": "Jason Taylor",
+              "role": "Digital Marketing Manager",
+              "years_experience": 10
+            },
+            {
+              "name": "Rachel Anderson",
+              "role": "Content Marketing Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Justin Garcia",
+              "role": "SEO Specialist",
+              "years_experience": 6
+            },
+            {
+              "name": "Angela Rodriguez",
+              "role": "Social Media Manager",
+              "years_experience": 5
+            },
+            {
+              "name": "Brian Moore",
+              "role": "Digital Analyst",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Corporate Communications",
+          "members": [
+            {
+              "name": "Susan Johnson",
+              "role": "Communications Manager",
+              "years_experience": 12
+            },
+            {
+              "name": "Howard Martinez",
+              "role": "Communications Specialist",
+              "years_experience": 8
+            },
+            {
+              "name": "Catherine Wilson",
+              "role": "Public Relations Officer",
+              "years_experience": 9
+            },
+            {
+              "name": "Raymond Brown",
+              "role": "Internal Communications Coordinator",
+              "years_experience": 5
+            },
+            {
+              "name": "Shirley Davis",
+              "role": "Content Writer",
+              "years_experience": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quality Assurance and Continuous Improvement",
+      "budget": 650000,
+      "teams": [
+        {
+          "name": "Quality Control",
+          "members": [
+            {
+              "name": "Lawrence Garcia",
+              "role": "Quality Assurance Manager",
+              "years_experience": 15
+            },
+            {
+              "name": "Martha Lee",
+              "role": "Quality Inspector",
+              "years_experience": 11
+            },
+            {
+              "name": "Henry Rodriguez",
+              "role": "Quality Analyst",
+              "years_experience": 9
+            },
+            {
+              "name": "Dorothy Martinez",
+              "role": "Testing Specialist",
+              "years_experience": 7
+            },
+            {
+              "name": "Ralph Taylor",
+              "role": "QA Technician",
+              "years_experience": 3
+            }
+          ]
+        },
+        {
+          "name": "Process Improvement",
+          "members": [
+            {
+              "name": "Helen White",
+              "role": "Process Improvement Manager",
+              "years_experience": 13
+            },
+            {
+              "name": "Wayne Brown",
+              "role": "Six Sigma Specialist",
+              "years_experience": 10
+            },
+            {
+              "name": "Grace Anderson",
+              "role": "Lean Consultant",
+              "years_experience": 8
+            },
+            {
+              "name": "Ethan Davis",
+              "role": "Process Analyst",
+              "years_experience": 6
+            },
+            {
+              "name": "Alice Johnson",
+              "role": "Improvement Coordinator",
+              "years_experience": 2
+            }
+          ]
+        },
+        {
+          "name": "Audit and Compliance",
+          "members": [
+            {
+              "name": "Ralph Wilson",
+              "role": "Audit Manager",
+              "years_experience": 14
+            },
+            {
+              "name": "Gloria Martinez",
+              "role": "Internal Auditor",
+              "years_experience": 11
+            },
+            {
+              "name": "Arthur Moore",
+              "role": "Compliance Auditor",
+              "years_experience": 9
+            },
+            {
+              "name": "Rose Garcia",
+              "role": "Audit Specialist",
+              "years_experience": 6
+            },
+            {
+              "name": "Aaron Lee",
+              "role": "Audit Assistant",
+              "years_experience": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```

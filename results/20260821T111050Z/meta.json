@@ -1,0 +1,9 @@
+{
+  "started": "20260821T111050Z",
+  "iterations": 2,
+  "concurrency": 4,
+  "model_filter": "claude-haiku-4-5",
+  "stall_timeout": 90,
+  "planned_requests": 36,
+  "config": "config-haiku-600.json"
+}

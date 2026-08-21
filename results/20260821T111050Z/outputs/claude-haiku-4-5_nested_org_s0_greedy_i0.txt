@@ -1,0 +1,376 @@
+```json
+{
+  "name": "GlobalFlow Logistics",
+  "founded": 1998,
+  "departments": [
+    {
+      "name": "Operations",
+      "budget": 45000000,
+      "teams": [
+        {
+          "name": "Fleet Management",
+          "members": [
+            {"name": "Marcus Chen", "role": "Fleet Director", "years_experience": 22},
+            {"name": "Sarah Williams", "role": "Vehicle Coordinator", "years_experience": 15},
+            {"name": "James Rodriguez", "role": "Maintenance Supervisor", "years_experience": 18},
+            {"name": "Patricia Moore", "role": "Route Planner", "years_experience": 12},
+            {"name": "David Kumar", "role": "Fleet Analyst", "years_experience": 8}
+          ]
+        },
+        {
+          "name": "Warehouse Operations",
+          "members": [
+            {"name": "Angela Thompson", "role": "Warehouse Manager", "years_experience": 20},
+            {"name": "Robert Jackson", "role": "Inventory Specialist", "years_experience": 14},
+            {"name": "Lisa Chen", "role": "Shift Supervisor", "years_experience": 11},
+            {"name": "Michael Brown", "role": "Forklift Operator Lead", "years_experience": 9},
+            {"name": "Jennifer Davis", "role": "Quality Inspector", "years_experience": 7}
+          ]
+        },
+        {
+          "name": "Distribution Centers",
+          "members": [
+            {"name": "Christopher Lee", "role": "DC Manager", "years_experience": 19},
+            {"name": "Amanda Foster", "role": "Operations Coordinator", "years_experience": 13},
+            {"name": "Kevin Martinez", "role": "Sorting Lead", "years_experience": 10},
+            {"name": "Nicole White", "role": "Logistics Technician", "years_experience": 6},
+            {"name": "Thomas Anderson", "role": "Safety Officer", "years_experience": 8}
+          ]
+        },
+        {
+          "name": "Last Mile Delivery",
+          "members": [
+            {"name": "Steven Garcia", "role": "Delivery Operations Manager", "years_experience": 17},
+            {"name": "Rebecca Johnson", "role": "Route Supervisor", "years_experience": 12},
+            {"name": "Daniel Wilson", "role": "Driver Coordinator", "years_experience": 9},
+            {"name": "Maria Lopez", "role": "Delivery Specialist", "years_experience": 5},
+            {"name": "Joseph Taylor", "role": "Performance Analyst", "years_experience": 7}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technology & Systems",
+      "budget": 32000000,
+      "teams": [
+        {
+          "name": "Software Development",
+          "members": [
+            {"name": "Eric Zhang", "role": "Engineering Manager", "years_experience": 18},
+            {"name": "Sophia Patel", "role": "Senior Developer", "years_experience": 14},
+            {"name": "Alexander Volkov", "role": "Backend Developer", "years_experience": 11},
+            {"name": "Emma Richardson", "role": "Frontend Developer", "years_experience": 8},
+            {"name": "Lucas Silva", "role": "Junior Developer", "years_experience": 2}
+          ]
+        },
+        {
+          "name": "Infrastructure & Cloud",
+          "members": [
+            {"name": "Nathan Brooks", "role": "Infrastructure Director", "years_experience": 20},
+            {"name": "Priya Desai", "role": "Cloud Architect", "years_experience": 13},
+            {"name": "Marcus Johnson", "role": "Systems Administrator", "years_experience": 10},
+            {"name": "Olivia Chen", "role": "DevOps Engineer", "years_experience": 7},
+            {"name": "Ryan O'Brien", "role": "Network Technician", "years_experience": 4}
+          ]
+        },
+        {
+          "name": "Data & Analytics",
+          "members": [
+            {"name": "Dr. Rajesh Kumar", "role": "Data Science Lead", "years_experience": 16},
+            {"name": "Catherine Moore", "role": "Analytics Manager", "years_experience": 12},
+            {"name": "Benjamin Foster", "role": "Data Engineer", "years_experience": 9},
+            {"name": "Amelia Wright", "role": "Business Analyst", "years_experience": 6},
+            {"name": "Hassan Ahmed", "role": "Data Analyst", "years_experience": 3}
+          ]
+        },
+        {
+          "name": "IT Support & Security",
+          "members": [
+            {"name": "Gregory Patterson", "role": "IT Security Manager", "years_experience": 19},
+            {"name": "Victoria Santos", "role": "Security Analyst", "years_experience": 11},
+            {"name": "William Hayes", "role": "Help Desk Manager", "years_experience": 8},
+            {"name": "Jessica Martin", "role": "IT Support Specialist", "years_experience": 5},
+            {"name": "Andrew Cooper", "role": "Compliance Officer", "years_experience": 7}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Resources",
+      "budget": 18000000,
+      "teams": [
+        {
+          "name": "Recruitment & Talent Acquisition",
+          "members": [
+            {"name": "Michelle Bennett", "role": "HR Director", "years_experience": 21},
+            {"name": "David Nguyen", "role": "Recruitment Manager", "years_experience": 13},
+            {"name": "Karen Sullivan", "role": "Talent Acquisition Specialist", "years_experience": 9},
+            {"name": "Anthony Romano", "role": "Recruiter", "years_experience": 6},
+            {"name": "Sophie Laurent", "role": "Campus Recruiter", "years_experience": 2}
+          ]
+        },
+        {
+          "name": "Employee Relations & Development",
+          "members": [
+            {"name": "Robert Hamilton", "role": "Employee Relations Manager", "years_experience": 15},
+            {"name": "Diane Foster", "role": "Training Coordinator", "years_experience": 11},
+            {"name": "Marcus Green", "role": "Career Development Specialist", "years_experience": 8},
+            {"name": "Laura Peterson", "role": "Onboarding Specialist", "years_experience": 5},
+            {"name": "Kevin Walsh", "role": "Learning Facilitator", "years_experience": 4}
+          ]
+        },
+        {
+          "name": "Compensation & Benefits",
+          "members": [
+            {"name": "Jennifer Hayes", "role": "Compensation Manager", "years_experience": 17},
+            {"name": "Paul Mitchell", "role": "Benefits Administrator", "years_experience": 12},
+            {"name": "Rachel Green", "role": "Payroll Specialist", "years_experience": 9},
+            {"name": "Steven Clark", "role": "HR Analyst", "years_experience": 6},
+            {"name": "Michelle Torres", "role": "Benefits Coordinator", "years_experience": 3}
+          ]
+        },
+        {
+          "name": "Safety & Compliance",
+          "members": [
+            {"name": "Thomas Wright", "role": "Safety Director", "years_experience": 19},
+            {"name": "Amanda Lewis", "role": "Compliance Manager", "years_experience": 14},
+            {"name": "George Martinez", "role": "Safety Inspector", "years_experience": 10},
+            {"name": "Rebecca Hall", "role": "Training Officer", "years_experience": 7},
+            {"name": "Charles Davis", "role": "Safety Coordinator", "years_experience": 4}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance & Accounting",
+      "budget": 28000000,
+      "teams": [
+        {
+          "name": "Financial Planning & Analysis",
+          "members": [
+            {"name": "Dr. Michael Richardson", "role": "CFO", "years_experience": 25},
+            {"name": "Susan Blake", "role": "Controller", "years_experience": 18},
+            {"name": "James Wilson", "role": "Financial Analyst", "years_experience": 12},
+            {"name": "Patricia Young", "role": "Budget Analyst", "years_experience": 9},
+            {"name": "Edward Brown", "role": "Forecasting Specialist", "years_experience": 6}
+          ]
+        },
+        {
+          "name": "Accounts Payable & Receivable",
+          "members": [
+            {"name": "Margaret Foster", "role": "AP/AR Manager", "years_experience": 16},
+            {"name": "Vincent Garcia", "role": "Accounts Payable Specialist", "years_experience": 11},
+            {"name": "Dorothy Martinez", "role": "Accounts Receivable Specialist", "years_experience": 10},
+            {"name": "Richard Thompson", "role": "Collections Specialist", "years_experience": 7},
+            {"name": "Helen Anderson", "role": "Billing Coordinator", "years_experience": 4}
+          ]
+        },
+        {
+          "name": "General Accounting",
+          "members": [
+            {"name": "Charles Robinson", "role": "Accounting Manager", "years_experience": 14},
+            {"name": "Barbara White", "role": "Senior Accountant", "years_experience": 11},
+            {"name": "Ronald Davis", "role": "Accountant", "years_experience": 8},
+            {"name": "Carol Johnson", "role": "Junior Accountant", "years_experience": 3},
+            {"name": "Donald Miller", "role": "Accounting Clerk", "years_experience": 1}
+          ]
+        },
+        {
+          "name": "Audit & Compliance",
+          "members": [
+            {"name": "Lisa Anderson", "role": "Audit Manager", "years_experience": 17},
+            {"name": "George Taylor", "role": "Internal Auditor", "years_experience": 12},
+            {"name": "Nancy Harris", "role": "Compliance Auditor", "years_experience": 9},
+            {"name": "Kenneth Martin", "role": "Risk Analyst", "years_experience": 6},
+            {"name": "Sandra Clark", "role": "Audit Coordinator", "years_experience": 2}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sales & Customer Relations",
+      "budget": 35000000,
+      "teams": [
+        {
+          "name": "Enterprise Sales",
+          "members": [
+            {"name": "Jonathan Pierce", "role": "VP Sales", "years_experience": 23},
+            {"name": "Elizabeth Morgan", "role": "Sales Director", "years_experience": 16},
+            {"name": "Christopher Bell", "role": "Account Executive", "years_experience": 12},
+            {"name": "Michelle Garcia", "role": "Account Executive", "years_experience": 10},
+            {"name": "Daniel Foster", "role": "Sales Representative", "years_experience": 5}
+          ]
+        },
+        {
+          "name": "Customer Success & Support",
+          "members": [
+            {"name": "Amanda Richardson", "role": "Customer Success Manager", "years_experience": 14},
+            {"name": "Kevin O'Connor", "role": "Support Manager", "years_experience": 11},
+            {"name": "Rachel Martinez", "role": "Customer Success Specialist", "years_experience": 8},
+            {"name": "Brian Thompson", "role": "Support Specialist", "years_experience": 6},
+            {"name": "Jennifer Lopez", "role": "Customer Service Representative", "years_experience": 3}
+          ]
+        },
+        {
+          "name": "Business Development",
+          "members": [
+            {"name": "Steven Hayes", "role": "Business Development Manager", "years_experience": 15},
+            {"name": "Victoria Chen", "role": "Partnership Manager", "years_experience": 11},
+            {"name": "Marcus Johnson", "role": "Business Analyst", "years_experience": 8},
+            {"name": "Sophia Rodriguez", "role": "Market Researcher", "years_experience": 5},
+            {"name": "Alexander Kim", "role": "Business Development Associate", "years_experience": 2}
+          ]
+        },
+        {
+          "name": "Pricing & Contracts",
+          "members": [
+            {"name": "Patricia Sullivan", "role": "Pricing Manager", "years_experience": 13},
+            {"name": "Robert Evans", "role": "Contract Manager", "years_experience": 10},
+            {"name": "Linda Davis", "role": "Pricing Analyst", "years_experience": 7},
+            {"name": "Michael Brown", "role": "Contract Specialist", "years_experience": 5},
+            {"name": "Sarah Wilson", "role": "Contracts Coordinator", "years_experience": 2}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing & Communications",
+      "budget": 22000000,
+      "teams": [
+        {
+          "name": "Digital Marketing",
+          "members": [
+            {"name": "Jessica Chen", "role": "Marketing Director", "years_experience": 16},
+            {"name": "Brandon Foster", "role": "Digital Marketing Manager", "years_experience": 11},
+            {"name": "Natalie Rodriguez", "role": "SEO Specialist", "years_experience": 8},
+            {"name": "Tyler Martinez", "role": "Content Marketing Specialist", "years_experience": 6},
+            {"name": "Ashley Thompson", "role": "Social Media Coordinator", "years_experience": 3}
+          ]
+        },
+        {
+          "name": "Brand & Communications",
+          "members": [
+            {"name": "Gregory Walsh", "role": "Communications Manager", "years_experience": 14},
+            {"name": "Heather Bennett", "role": "Brand Manager", "years_experience": 10},
+            {"name": "David Foster", "role": "Communications Specialist", "years_experience": 7},
+            {"name": "Megan Johnson", "role": "Public Relations Specialist", "years_experience": 5},
+            {"name": "Christopher Lee", "role": "Communications Coordinator", "years_experience": 2}
+          ]
+        },
+        {
+          "name": "Creative Services",
+          "members": [
+            {"name": "Victoria Martinez", "role": "Creative Director", "years_experience": 15},
+            {"name": "Samuel Garcia", "role": "Graphic Designer", "years_experience": 10},
+            {"name": "Lauren White", "role": "Video Producer", "years_experience": 8},
+            {"name": "Nathan Brown", "role": "UX Designer", "years_experience": 6},
+            {"name": "Emma Davis", "role": "Design Coordinator", "years_experience": 2}
+          ]
+        },
+        {
+          "name": "Market Research & Analytics",
+          "members": [
+            {"name": "Dr. Patricia Anderson", "role": "Research Manager", "years_experience": 17},
+            {"name": "Kevin Sullivan", "role": "Market Analyst", "years_experience": 12},
+            {"name": "Rachel Foster", "role": "Research Analyst", "years_experience": 8},
+            {"name": "James Wilson", "role": "Data Analyst", "years_experience": 5},
+            {"name": "Olivia Martinez", "role": "Research Coordinator", "years_experience": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Supply Chain & Procurement",
+      "budget": 38000000,
+      "teams": [
+        {
+          "name": "Procurement",
+          "members": [
+            {"name": "Richard Foster", "role": "Procurement Director", "years_experience": 20},
+            {"name": "Catherine Williams", "role": "Procurement Manager", "years_experience": 14},
+            {"name": "Michael Johnson", "role": "Procurement Specialist", "years_experience": 10},
+            {"name": "Jennifer Martinez", "role": "Buyer", "years_experience": 7},
+            {"name": "David Chen", "role": "Procurement Coordinator", "years_experience": 3}
+          ]
+        },
+        {
+          "name": "Vendor Management",
+          "members": [
+            {"name": "Susan Harris", "role": "Vendor Manager", "years_experience": 16},
+            {"name": "Thomas Anderson", "role": "Vendor Relations Specialist", "years_experience": 11},
+            {"name": "Maria Garcia", "role": "Vendor Coordinator", "years_experience": 8},
+            {"name": "Robert Thompson", "role": "Quality Assurance Specialist", "years_experience": 6},
+            {"name": "Angela Davis", "role": "Vendor Support Coordinator", "years_experience": 2}
+          ]
+        },
+        {
+          "name": "Supply Chain Planning",
+          "members": [
+            {"name": "Dr. James Mitchell", "role": "Supply Chain Manager", "years_experience": 19},
+            {"name": "Elizabeth Foster", "role": "Demand Planner", "years_experience": 13},
+            {"name": "Christopher Brown", "role": "Supply Planner", "years_experience": 9},
+            {"name": "Michelle White", "role": "Logistics Planner", "years_experience": 6},
+            {"name": "Kevin Martinez", "role": "Planning Analyst", "years_experience": 3}
+          ]
+        },
+        {
+          "name": "Inventory Management",
+          "members": [
+            {"name": "Patricia Johnson", "role": "Inventory Manager", "years_experience": 15},
+            {"name": "Ronald Garcia", "role": "Inventory Specialist", "years_experience": 11},
+            {"name": "Linda Martinez", "role": "Stock Controller", "years_experience": 8},
+            {"name": "George Wilson", "role": "Inventory Analyst", "years_experience": 5},
+            {"name": "Sandra Brown", "role": "Inventory Coordinator", "years_experience": 2}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legal & Risk Management",
+      "budget": 16000000,
+      "teams": [
+        {
+          "name": "Legal Affairs",
+          "members": [
+            {"name": "Dr. Margaret Richardson", "role": "General Counsel", "years_experience": 24},
+            {"name": "Jonathan Foster", "role": "Senior Attorney", "years_experience": 16},
+            {"name": "Victoria Martinez", "role": "Corporate Counsel", "years_experience": 12},
+            {"name": "Christopher Anderson", "role": "Legal Specialist", "years_experience": 7},
+            {"name": "Rachel Thompson", "role": "Legal Coordinator", "years_experience": 2}
+          ]
+        },
+        {
+          "name": "Risk Management",
+          "members": [
+            {"name": "Steven Foster", "role": "Risk Manager", "years_experience": 18},
+            {"name": "Amanda Johnson", "role": "Risk Analyst", "years_experience": 12},
+            {"name": "Michael Garcia", "role": "Insurance Specialist", "years_experience": 9},
+            {"name": "Jennifer Wilson", "role": "Claims Coordinator", "years_experience": 5},
+            {"name": "David Martinez", "role": "Risk Coordinator", "years_experience": 2}
+          ]
+        },
+        {
+          "name": "Regulatory & Government Affairs",
+          "members": [
+            {"name": "Patricia Anderson", "role": "Regulatory Manager", "years_experience": 17},
+            {"name": "Robert Thompson", "role": "Compliance Specialist", "years_experience": 11},
+            {"name": "Linda Foster", "role": "Government Relations Specialist", "years_experience": 8},
+            {"name": "James Wilson", "role": "Regulatory Analyst", "years_experience": 5},
+            {"name": "Susan Martinez", "role": "Regulatory Coordinator", "years_experience": 1}
+          ]
+        },
+        {
+          "name": "Contracts & Intellectual Property",
+          "members": [
+            {"name": "Gregory Davis", "role": "IP Manager", "years_experience": 16},
+            {"name": "Elizabeth Brown", "role": "Contract Attorney", "years_experience": 12},
+            {"name": "Charles Foster", "role": "IP Specialist", "years_experience": 8},
+            {"name": "Margaret Johnson", "role": "Contracts Specialist", "years_experience": 5},
+            {"name": "Richard Garcia", "role": "IP Coordinator", "years_experience": 2}
+          ]
+        }
+      ]
+    }
+  ]
+}
+```

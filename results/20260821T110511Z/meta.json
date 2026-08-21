@@ -1,0 +1,9 @@
+{
+  "started": "20260821T110511Z",
+  "iterations": 2,
+  "concurrency": 4,
+  "model_filter": "claude-sonnet-4-6",
+  "stall_timeout": 90,
+  "planned_requests": 36,
+  "config": "config.json"
+}

@@ -1,0 +1,5 @@
+anthropic>=0.60
+jsonschema>=4.21
+pandas>=2.0
+matplotlib>=3.8
+jupyterlab>=4.0
